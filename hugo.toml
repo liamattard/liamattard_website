@@ -1,0 +1,4 @@
+baseURL = 'https://liamatt.dev'
+languageCode = 'en-us'
+title = 'Liam Attard - Software Engineer'
+theme = 'ananke'
