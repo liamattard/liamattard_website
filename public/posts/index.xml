@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Liam Attard - Software Engineer</title>
-    <link>https://liamatt.dev/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Liam Attard - Software Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://liamatt.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2024 20:53:11 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liam</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 01 Sep 2024 20:53:11 +0200</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>+++&#xA;Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
+    </item>
   </channel>
 </rss>
