@@ -2,15 +2,43 @@ baseURL = 'https://www.liamatt.dev'
 languageCode = 'en-us'
 title = 'Liam Attard'
 
-theme = 'hugo-paper'
+theme = 'profile'
+
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Blog posts"
+url = "/blogs"
+weight = 1
 
 
 [params]
-  color = 'linen'
 
-  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
-  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  [params.navbar]
+  align = "ms-auto"
+  disableSearch = true
+  enableSeparator = false
 
-  # home page profile
-  name = 'Hello World!'
-  bio = 'Software Engineer'
+  [params.hero]
+  enable = true
+  intro = "Hello World!"
+  title = "I'm Liam"
+  subtitle = "Software Engineer from 🇲🇹"
+  content = "I like to use Linux, ZSH, Neovim, Tmux, Java, Python"
+  image = "/images/hero.svg"
+
+    [params.hero.button]
+    enable = true
+    name = "Download my resume"
+    url = "#"
+    download = true
+    newPage = false
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin-in"
+url = "https://example.com"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://example.com"
+
