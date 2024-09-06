@@ -1,4 +1,16 @@
 baseURL = 'https://www.liamatt.dev'
 languageCode = 'en-us'
-title = 'Liam Attard - Software Engineer'
+title = 'Liam Attard'
+
 theme = 'hugo-paper'
+
+
+[params]
+  color = 'linen'
+
+  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+
+  # home page profile
+  name = 'Hello World!'
+  bio = 'Software Engineer'
