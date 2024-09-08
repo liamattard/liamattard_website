@@ -8,7 +8,7 @@ theme = 'profile'
 identifier = "blog"
 name = "Blog"
 title = "Blog posts"
-url = "/blogs"
+url = "/posts"
 weight = 1
 
 
