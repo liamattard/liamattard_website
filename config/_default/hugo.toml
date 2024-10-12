@@ -1,0 +1,53 @@
+baseURL = 'https://www.liamatt.dev'
+languageCode = 'en-us'
+title = 'Liam Attard'
+theme = 'profile'
+enableRobotsTXT = true
+
+[[menus.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+[[menus.main]]
+  identifier = "Home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[params.navbar]
+align = "ms-auto"
+disableSearch = true
+enableSeparator = false
+
+[params.hero]
+enable = true
+intro = "Hello!"
+title = "I'm Liam"
+subtitle = "A Software Engineer"
+content = "Born in Malta 🇲🇹, living in Luxembourg 🇱🇺"
+image = "/images/hero.svg"
+
+[params.hero.button]
+  enable = true
+  name = "View My Resume"
+  url = "#"
+  download = true
+  newPage = false
+
+[params.color]
+  primaryColor = "#93C572"
+  backgroundColor = "#ebe6e9"
+
+[params.theme]
+  disableThemeToggle = true
+
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin-in"
+url = "https://www.linkedin.com/in/liam-attard-1542b6180"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/liamattard/"
+

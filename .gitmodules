@@ -7,3 +7,6 @@
 [submodule "themes/profile"]
 	path = themes/profile
 	url = https://github.com/gurusabarish/hugo-profile.git
+[submodule "static/particles"]
+	path = static/particles
+	url = https://github.com/VincentGarreau/particles.js.git
