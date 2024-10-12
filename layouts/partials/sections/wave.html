@@ -1,13 +1,19 @@
 <style>
 
-body{  padding:0; margin:0;}
-.dot{margin: 0 auto}
-.cont{text-align:center;}
-.wave {
-  animation: moveTheWave 90000ms linear infinite;
-  stroke-dasharray: 0 0 0 0;
-  
+/* For larger screens (desktop) */
+@media (min-width: 768px) {
+  .wave {
+    animation: moveTheWave 90000ms linear infinite;
+  }
 }
+
+/* For smaller screens (mobile) */
+@media (max-width: 767px) {
+  .wave {
+    animation: moveTheWave 30000ms linear infinite;
+  }
+}
+
  
 @keyframes moveTheWave {
 /*
