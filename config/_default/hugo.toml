@@ -25,7 +25,7 @@ enable = true
 intro = "Hello!"
 title = "I'm Liam"
 subtitle = "A Software Engineer"
-content = "Born in Malta 🇲🇹, living in Luxembourg 🇱🇺"
+content = "From Malta 🇲🇹, living in Luxembourg 🇱🇺"
 image = "/images/hero.svg"
 
 [params.hero.button]
@@ -52,3 +52,9 @@ url = "https://www.linkedin.com/in/liam-attard-1542b6180"
 icon = "fab fa-github"
 url = "https://github.com/liamattard/"
 
+
+# [ params.meta ]
+  # favicon = true
+
+[params]
+  favicon = "favicon.ico"
