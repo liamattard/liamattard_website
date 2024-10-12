@@ -41,6 +41,7 @@ image = "/images/hero.svg"
 
 [params.theme]
   disableThemeToggle = true
+  defaultTheme="light"
 
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
