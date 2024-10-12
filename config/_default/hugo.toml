@@ -30,7 +30,7 @@ image = "/images/hero.svg"
 
 [params.hero.button]
   enable = true
-  name = "View My Resume"
+  name = "Download My Resume"
   url = "LiamAtt_Resume.pdf"
   download = true
   newPage = false
