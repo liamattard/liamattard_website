@@ -53,8 +53,12 @@ icon = "fab fa-github"
 url = "https://github.com/liamattard/"
 
 
-# [ params.meta ]
-  # favicon = true
-
 [params]
   favicon = "favicon.ico"
+
+[params.footer.socialNetworks]
+  [params.listPages]
+  disableFeaturedImage = false
+
+  [params.singlePages]
+  socialShare = false
