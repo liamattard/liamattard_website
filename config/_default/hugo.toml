@@ -62,3 +62,6 @@ url = "https://github.com/liamattard/"
 
   [params.singlePages]
   socialShare = false
+
+  [params.singlePages.readTime]
+    enable = false
