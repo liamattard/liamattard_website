@@ -1,6 +1,6 @@
 +++
 title = 'My ZSH Config'
-date = 2023-10-13T00:00:00+02:00
+date = 2024-10-13T00:00:00+02:00
 draft = false
 +++
 
